@@ -45,4 +45,63 @@ public class Debt {
     private Group group; // Group to which this debt belongs
 
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Double getAmount() {
+        return amount;
+    }
+
+    public void setAmount(Double amount) {
+        this.amount = amount;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public boolean isPaidByDebtor() {
+        return paidByDebtor;
+    }
+
+    public void setPaidByDebtor(boolean paidByDebtor) {
+        this.paidByDebtor = paidByDebtor;
+    }
+
+    public boolean isConfirmedByCreditor() {
+        return confirmedByCreditor;
+    }
+
+    public void setConfirmedByCreditor(boolean confirmedByCreditor) {
+        this.confirmedByCreditor = confirmedByCreditor;
+    }
+
+    public User getDebtor() {
+        return debtor;
+    }
+
+    public void setDebtor(User debtor) {
+        this.debtor = debtor;
+    }
+
+    public User getCreditor() {
+        return creditor;
+    }
+
+    public void setCreditor(User creditor) {
+        this.creditor = creditor;
+    }
+
+    public Group getGroup() {
+        return group;
+    }
+
+    public void setGroup(Group group) {
+        this.group = group;
+    }
 }

@@ -37,4 +37,36 @@ public class Group {
 
     @Transient
     public Long getOwnerId() { return owner != null ? owner.getId() : null; }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public User getOwner() {
+        return owner;
+    }
+
+    public void setOwner(User owner) {
+        this.owner = owner;
+    }
+
+    public List<Membership> getMemberships() {
+        return memberships;
+    }
+
+    public void setMemberships(List<Membership> memberships) {
+        this.memberships = memberships;
+    }
 }
