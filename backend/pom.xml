@@ -16,6 +16,9 @@
 
     <properties>
         <java.version>25</java.version>
+        <properties>
+            <sonar.organization>hubertbialy05</sonar.organization>
+        </properties>
     </properties>
 
     <dependencies>
